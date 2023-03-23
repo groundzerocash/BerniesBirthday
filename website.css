@@ -1,0 +1,91 @@
+.beg-text{
+    display: inline-block;
+}
+
+.statement-lines{
+    font-size: 25px;
+    text-align: center;
+}
+.pre-sign{
+    display: inline-block;
+    text-align: center;
+}
+.signature{
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    text-align: center;
+}
+.tblphoto{
+    height: 85px;
+}
+.imgpreview{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 140px;
+}
+.photo {
+    border: none;
+    height: 150px;
+    display: inline-block;
+}
+
+.babytext {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery-button {
+    background-color: rgb(206, 6, 6);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 15px;
+    transition: opacity 0.15s;
+}
+
+.gallery-button:hover {
+    opacity: 0.8;  
+}
+
+.gallery-button:active {
+    opacity: 0.5;
+}
+
+.statement-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.statement-button:active {
+    opacity: 0.7;
+}
+
+.statement-button,
+.vest-button {
+    background-color: rgb(21, 113, 233);
+    color: white;
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow .15s;
+}
+
+.vest-button:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .15);  
+}
+
+.present-button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
