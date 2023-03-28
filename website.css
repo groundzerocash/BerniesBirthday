@@ -1,7 +1,47 @@
 .beg-text{
     display: inline-block;
 }
-
+.home{
+    display: inline-block;
+    align-content: flex-start;
+}
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor:pointer;
+}
+#image-thumbs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#image-gallery{
+    width: 600px;
+    margin: 0 auto;
+}
+#current-image{
+    border-color: gray;
+    width: 100%;
+}
+.intro{
+    text-align: center;
+    font-family: Arial;
+}
+.coupon{
+    width: 100%;
+    border: 10px;
+    border-color: gray;
+}
+.head{
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+    background: gray;
+    padding: 20px;
+}
 .statement-lines{
     font-size: 25px;
     text-align: center;
@@ -18,34 +58,11 @@
 .tblphoto{
     height: 85px;
 }
-.imgpreview{
-    width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 140px;
-}
-.photo {
-    border: none;
-    height: 150px;
-    display: inline-block;
-}
-
 .babytext {
     font-family: Arial;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-}
-
-.gallery-button {
-    background-color: rgb(206, 6, 6);
-    color: white;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    padding: 15px;
-    transition: opacity 0.15s;
 }
 
 .gallery-button:hover {
@@ -65,6 +82,7 @@
     opacity: 0.7;
 }
 
+.gallery-button,
 .statement-button,
 .vest-button {
     background-color: rgb(21, 113, 233);
@@ -87,5 +105,9 @@
     background-color: green;
     color: white;
     cursor: pointer;
+}
+
+.present{
+    text-align: center;
 }
 
